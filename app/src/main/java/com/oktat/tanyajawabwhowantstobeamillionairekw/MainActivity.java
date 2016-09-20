@@ -182,6 +182,10 @@ public class MainActivity extends AppCompatActivity {
                     hasil.setText("Anda salah pada nomor 1, 3, 4 dan 5");
                     persentase.setText("Presentase 20 %");
 
+                } else if (!linus.isChecked() && !bill2.isChecked() && !satya.isChecked() && anniv.isChecked() && !u16041.isChecked()) {
+                    hasil.setText("Anda salah pada nomor 1, 2, 3 dan 5");
+                    persentase.setText("Presentase 20 %");
+
                 } else if (!linus.isChecked() && !bill2.isChecked() && !satya.isChecked() && !anniv.isChecked() && !u16041.isChecked()) {
                     hasil.setText("Anda salah semua");
                     persentase.setText("Presentase 0 %");
